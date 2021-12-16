@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    
+}
+table td{
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+}
+td{
+    text-align: center;
+    background-color: rgb(31, 184, 77);
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 500;
+}
+.container p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+}
+.container button{
+    border-style: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(35, 25, 179);
+    color:white;
+    border-radius: 5px;
+}
+.container button:hover{
+    background-color: rgb(194, 18, 194);
+}
